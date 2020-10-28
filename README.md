@@ -8,12 +8,14 @@
 
 - Atributos:
 
-### Sistemas de gerenciamento de banco de dados:
+### SGBD
+
+Sistemas de gerenciamento de banco de dados:
 
 - Relacionais: estruturado previamente,  
-  Ex: MySQL
+  Ex: Oracle, MySQL, PostgreSQL
 
-- Não-relacionais: dinâmico,  
+- Não-relacionais: dinâmico, escalável
   Ex: MongoDB,
 
 ## MongoDB
