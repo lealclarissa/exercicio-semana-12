@@ -29,7 +29,7 @@ Documento(*BSON*) -> Coleções(*Collections*) -> Banco de dados.
 
 Recentemente passei a utilizar o Linux (uso atualmente o Ubuntu versão 20.04) então procurei um passo a passo para a instalação do MongoDB para este caso, segue:
 
-> https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04-pt
+> https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#verify-that-mongodb-has-started-successfully
 
 
 ### Principais comandos:  
