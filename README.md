@@ -50,4 +50,12 @@ Recentemente passei a utilizar o Linux (uso atualmente o Ubuntu versão 20.04) e
 
 ```db.<nomeDaCollection>.insertMany([ { <objetosASerInseridos> } ])```: inclui vários registros de uma única vez;  
 
-```db.current```: aponta qual o banco de dados sendo utilizado no momento.
+```db.current```: aponta qual o banco de dados sendo utilizado no momento;
+
+```db.<nomeDaCollection>.find().limit(numeroDeQtdDeRegistro)```: aqui você passa a chave e o valor e vai retornar os primeiros "n" registros que tiverem as chaves e valores informados;
+
+```db.<nomeDaCollection>.find().count()```: retorna quantos registros existem no banco de dados especificamente com as informações informadas na chave e valor inseridos;
+
+```db.<nomeDaCollection>.find({<chaveEAtributo>, <chaveEAtributo>}).pretty()```: retorna, de um modo mais amigável, todos os registros que contenham TODOS(*and*) os valores de chave/atributo especificados;
+
+```db.<nomeDaCollection>.find({$or:[{<chaveEAtributo>}, {chaveEAtributo}]})```: retorna, de modo mais amigável, todos os registros que contiverem um OU(*or*) outro valor de chave/atributo especificados.
